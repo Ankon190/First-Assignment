@@ -63,6 +63,7 @@ header nav button{
 .heading{
     margin: 16px auto;
     max-width: 770px;
+    font-size: 30px;
 }
 .heading h1{
     text-align: center;
@@ -103,4 +104,60 @@ header nav button{
     background-color: transparent;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
+}
+.second-section{
+    background-color: #FFFFFF;
+    padding: 0 120px;
+    margin-bottom:120px;
+}
+.heading2{
+    max-width: 1360px;
+    margin:0 auto;
+}
+.heading2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin:25px 0 16px 0; 
+}
+.heading2 p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 44px;
+    color: #627382;
+}
+
+.note-card{
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin:0 auto;
+}
+.card{
+    padding:24px 0;
+    max-width: 322px;
+}
+.card img{
+    padding: 12px;
+    margin-bottom:16px;
+    background-color: #F95555;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin:0 auto;
+
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin:16px 0;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #627382;
 }
