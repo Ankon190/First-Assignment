@@ -108,7 +108,6 @@ header nav button{
 .second-section{
     background-color: #FFFFFF;
     padding: 0 120px;
-    margin-bottom:120px;
 }
 .heading2{
     max-width: 1360px;
@@ -160,4 +159,52 @@ header nav button{
     font-weight: 400;
     text-align: center;
     color: #627382;
+}
+.third-section{
+    padding: 120px;
+    background-color: #FFFFFF;
+}
+.third-section .main{
+    max-width: 1360px;
+    display: flex;
+    gap:60px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.third-section .img-div img{
+    height: 600px;
+    width: 600px;
+}
+.third-section .text-div{
+    max-width: 700px;
+    margin: auto 0;
+}
+.the-solution{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+.third-section .text-div h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin:16px 0;
+    color: #001931;
+}
+.third-section .text-div #second-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.img-para img{
+    margin-right:6px;
+}
+.img-para p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #001931;
+
 }
