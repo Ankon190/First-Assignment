@@ -6,6 +6,10 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+body button:hover{
+    background-color: #FFFFFF;
+    color: #30B868;
+}
 header {
     background-color: #FFFFFF;
     padding: 20px 0;
@@ -101,10 +105,18 @@ header nav button{
     border-radius: 5px;
     margin-right: 16px;
 }
+#button1:hover{
+    background-color: #FFFFFF;
+    color: #30B868;
+}
 #button2{
     background-color: transparent;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
+}
+#button2:hover{
+    background-color: #FFFFFF;
+    color: #30B868;
 }
 .second-section{
     background-color: #FFFFFF;
@@ -293,3 +305,4 @@ footer .footer-content{
     padding-top:30px;
 
 }
+
