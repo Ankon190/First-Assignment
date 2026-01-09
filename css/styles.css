@@ -38,6 +38,7 @@ header nav button{
 
 .hero-section {
     background: url(../images/hero-bg.png) no-repeat center;
+    background-size: cover;
 
 }
 
@@ -75,7 +76,7 @@ header nav button{
     color: #30B868;
 }
 .paragraph{
-    margin: 16px 0;
+    margin: 16px auto;
     max-width: 1360px;
 }
 .paragraph p{
@@ -134,8 +135,9 @@ header nav button{
     margin:0 auto;
 }
 .card{
-    padding:24px 0;
-    max-width: 322px;
+    padding:50px 15px 20px 15px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 .card img{
     padding: 12px;
@@ -163,6 +165,7 @@ header nav button{
 .third-section{
     padding: 120px;
     background-color: #FFFFFF;
+    z-index: 1;
 }
 .third-section .main{
     max-width: 1360px;
@@ -207,4 +210,42 @@ header nav button{
     font-weight: 600;
     color: #001931;
 
+}
+
+.main-container{
+    padding: 0 120px 120px 120px;
+    background-color: #FFFFFF;
+}
+
+.items-container{
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+}
+.items{
+    padding:80px 0;
+    text-align: center;
+}
+.items h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.items p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.items button{
+    margin: 24px 0 16px 0;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
 }
